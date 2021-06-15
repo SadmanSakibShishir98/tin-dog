@@ -1,0 +1,310 @@
+#title {
+  background-color: #ff4c68;
+  height:850px;
+  z-index: 1;
+  
+}
+
+
+
+#h1t {
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  width: 100%;
+  line-height: 1.5;
+  padding-top: 0;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid div {
+  padding: 1% 8% 1.2% 9%;
+}
+
+#brandname {
+  padding-left: 15.2%;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#linkbars {
+  margin-right: 21%;
+  font-size: 1.5rem;
+}
+
+.download-button {
+  margin: 8% 3% 5% 0;
+  height: 55px;
+  width: 170px;
+}
+
+/* title image */
+.title-image {
+  width: 30%;
+  transform: rotate(25deg);
+  z-index: 2;
+
+
+
+
+}
+
+#TitleImg {
+  margin-right: 50%;
+    position: absolute;
+    margin-top:150px;
+
+}
+
+/* Feature section */
+#features {
+  
+  padding: 10% 15%;
+  background-color: #fff;
+  
+  position: relative;
+  height: 650px;
+  margin-bottom: 5%;
+  z-index: 3;
+ 
+  
+}
+
+.Feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-img {
+  width: 5%;
+  border-radius: 100px;
+  margin: 20px;
+  padding-top: 20px;
+  ;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin-left: 20px 20px 50px;
+}
+
+#testimonial-id1{
+    font-size: 3em;
+
+    text-align: center;
+
+}
+
+#testimonial-id2{
+  font-size: 3em;
+
+  text-align: center;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.pricing-table{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat",sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pricing-table{
+  background-color: #fff;
+min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+  margin: 0 auto 0 auto;
+}
+
+.pricing-card{
+  flex: 1;
+  max-width: 360px;
+  background-color: #fff;
+  margin: 0px 10PX 0;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #2d2d2d;
+  transition: .3s linear;
+}
+
+.pricing-card-header{
+  background-color:  #18191A;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header{
+  box-shadow: 0 0 0 26em #ef8172;
+}
+
+.price{
+  font-size: 70px;
+  color: black;
+  margin: 40px 0;
+  transition: .2s linear;
+}
+
+.price sup, .price span{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing-card:hover .pricing-card:hover   .price {
+  color: white;
+}
+
+.pricing-card p{
+  font-size: 16px;
+  padding: 10px 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+.order-btn{
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 2px solid black;
+  color: #fff;
+  background-color: black;
+  padding: 18px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .3s linear;
+}
+
+.order-btn:hover{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+@media screen and (max-width:1100px){
+  .pricing-card{
+    flex: 50%;
+  }
+}
+.pricing-header h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  font-size: 3rem;
+}
+.pricing-header p{
+  text-align: center;
+
+  font-size: 1.8rem;
+}
+.pricing-header {
+  margin-bottom: 3%;
+  margin-top: 0;
+  padding-bottom: 3%;
+
+
+}
+pricing-tposition{
+  color: #fff;
+  position: relative;
+  margin-bottom: 30%;
+}
+
+
+#order-button3{
+  margin-top: 5px;
+}
+
+.pricing-card p:hover{
+color: #fff;
+}
+@media  (max-width: 1028px){
+#TitleImg {
+
+  position: absolute;
+  width: 40%;
+  padding-bottom: 200px;
+}
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta-heading{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  font-weight: bold;;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px; 
+}
